@@ -1,0 +1,97 @@
+.container {
+    width: 992px;
+    height: auto;
+    padding: 1rem;
+    margin: 1rem auto;
+    margin-top: -30px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.container .descbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .descbar .buttons {
+    background-color: transparent;
+    border: 0;
+    font-size: .8rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.container .descbar .buttons:hover {
+    background-color: transparent;
+    border: 0;
+    font-size: .8rem;
+    font-weight: bold;
+    
+    padding: .5rem;
+    border-bottom: 1px solid black;
+}
+
+.container .divaboutpoke {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 10px;
+}
+
+.container .aboutpokep .aboutp {
+    max-width: 3.5rem;
+    font-weight: 350;
+    font-size: small;
+}
+
+.container .aboutpokespan .descp {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 1rem;
+    font-weight: 400;
+    font-size: small;
+}
+
+.container .aboutpokespan {
+    margin-left: 1.6rem;
+}
+
+.content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    height: 100%;
+}
+
+.content3 .title h3 {
+    font-size: small;
+}
+
+.content3 .breedingContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.content3 .breedingContainer .breedingDesc {
+    font-size: small;
+    font-weight: 350;
+    height: 1.7rem;
+    width: auto;
+}
+
+.content3 .breedingContainer .breedingDesc span {
+    font-weight: normal;
+    
+    margin-left: 1rem;
+}
+
+.content3 .breedingContainer .breedingDesc .per {
+    margin-left: 2.6rem;
+}
+
+.content3 .breedingContainer .breedingDesc #eggCycleContent {
+    margin-left: 1.6rem;
+}

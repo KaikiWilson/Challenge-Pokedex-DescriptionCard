@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font: Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/pokemons-individual-description-pokedex/assets/css/global.css">
+    <link rel="stylesheet" href="/pokemons-individual-description-pokedex/assets/css/pokedex.css">
+    <link rel="stylesheet" href="/pokemons-individual-description-pokedex/assets/css/container.css">
+</head>
+
+<body>
+    <section class="global">
+        <section class="content">
+            <ol class="pokemons">
+                <li class="pokemon">
+                    <span class="name">Bulbasaur</span>
+                    <span class="number">#001</span>
+                    <div class="detail">
+                        <ol class="types">
+                            <li class="type">grass</li>
+                            <li class="type">poison</li>
+                        </ol>   
+                        <div class="imgbox">
+                            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
+                                alt="Bulbasaur">
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </section>
+        <section class="content2">
+                <div class="container">
+                    <div class="descbar">
+                        <button class="buttons" id="aboutButton" type="button">About</button>
+                        <button class="buttons" id="statusButton" type="button">Base Status</button>
+                        <button class="buttons" id="evolutionButton" type="button">Evolution</button>
+                        <button class="buttons" id="movesButton" type="button">Moves</button>
+                    </div>
+                    <div class="divaboutpoke">
+                        <div class="aboutpokep">
+                            <p class="aboutp">Species</p> 
+                            <p class="aboutp">Height</p> 
+                            <p class="aboutp">Weight</p> 
+                            <p class="aboutp">Abilities</p>
+                        </div> 
+                        <div class="aboutpokespan">
+                            <p class="descp">Carregando...</p>
+                            <p class="descp">Carregando...</p>
+                            <p class="descp">Carregando...</p>
+                            <p class="descp">Carregando...</p>
+                        </div>
+                    </div>
+                    <div class="content3">
+                        <div class="title">
+                            <h3>Breeding</h3>
+                        </div>
+                        <div class="breedingContainer">
+                            <div class="breedingDesc">
+                                <p class="breedingP">Gender <span class="per">%</span><span class="per">%</span></p>
+                            </div>
+                            <div class="breedingDesc">
+                                <p class="breedingP">Egg Groups <span>Carregando...</span></p>
+                            </div>
+                            <div class="breedingDesc">
+                                <p class="breedingP">Egg Cycle <span id="eggCycleContent">Carregando...</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </section>
+    <!-- Nosso JS -->
+    <script src="/pokemons-individual-description-pokedex/assets/js/main.js"></script>
+</body>
+
+</html>
