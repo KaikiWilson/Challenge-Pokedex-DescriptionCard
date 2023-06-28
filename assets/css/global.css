@@ -13,21 +13,65 @@ body {
 }
 
 .content {
-    width: 100vw;
+    width: auto;
     height: 23vh;
     background-color: #49d0b0;
     border-radius: 10px 10px 0px 0px;
 }
 
+@media screen and (min-width: 0px) {
+    .content {
+        width: 14rem;
+        height: 23vh;
+        background-color: #49d0b0;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .pokemons {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: 15vh;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .container {
+        max-width: 500rem;
+        height: 1px;
+        padding: 1rem;
+        margin: 1rem auto;
+        margin-top: -20px;
+        background-color: #fff;
+        border-radius: 20px;
+        border: 3px solid green;
+    }
+}
+
 @media screen and (min-width: 992px) {
     .content {
-        max-width: 992px;
-        height: auto;
-        margin: 1rem auto;
-        border-radius: 10px 10px 0px 0px;
+        
+    }
+
+    .pokemons {
+        
+    }
+
+    .container {
+        
     }
 }
 
 @media screen and (min-width: 393px) {
+    .content {
+        
+    }
 
+    .pokemons {
+        
+    }
+
+    .container {
+        
+    }
 }
