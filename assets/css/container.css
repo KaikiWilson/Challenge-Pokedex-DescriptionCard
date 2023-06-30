@@ -1,9 +1,8 @@
 .container {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     padding: 1rem;
-    margin: 1rem auto;
-    margin-top: -20px;
+    margin-top: -17px;
     background-color: #fff;
     border-radius: 20px;
 }
@@ -11,24 +10,24 @@
 .container .descbar {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .container .descbar .buttons {
     background-color: transparent;
     border: 0;
     font-size: .8rem;
-    margin-top: 1rem;
-    margin-left: 1.5rem;
+    margin-top: 2rem;
+    margin-left: .2rem;
     cursor: pointer;
 }
 
 .container .descbar .buttons:hover {
     background-color: transparent;
-    border: 0;
     font-size: .8rem;
     font-weight: bold;
-    
-    padding: .5rem;
     border-bottom: 1px solid black;
 }
 
@@ -94,4 +93,72 @@
 
 .content3 .breedingContainer .breedingDesc #eggCycleContent {
     margin-left: 1.6rem;
+}
+
+@media (min-width: 992px){
+    .container .divaboutpoke {
+        justify-content: center;
+    }
+    
+    .content3 {
+        align-items: center;
+    }
+
+    .container {
+        max-height: 555px;
+    }
+
+    .container .descbar .buttons {
+        background-color: transparent;
+        border: 0;
+        font-size: .8rem;
+        margin-top: .3rem;
+        margin-left: .2rem;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1192px){
+    .container .divaboutpoke {
+        justify-content: center;
+    }
+    
+    .content3 {
+        align-items: center;
+    }
+
+    .container {
+        max-height: 740px;
+    }
+}
+
+@media (min-width: 1360px) {
+
+    .container .divaboutpoke {
+        justify-content: center;
+    }
+    
+    .content3 {
+        align-items: center;
+    }
+
+    .container {
+        max-height: 740px;
+    }
+}
+
+@media (min-width: 1920px){
+
+    .container .divaboutpoke {
+        justify-content: center;
+    }
+    
+    .content3 {
+        align-items: center;
+    }
+
+    .container {
+        margin-top: -3.8rem;
+        max-height: 1009px;
+    }
 }
