@@ -4,10 +4,10 @@ const pokeApi = {}
 
 function convertPokeApiDetailToPokemon(pokeDetail) {
     const pokemon = new Pokemon()
-    pokemon.number = pokeDetail.id
-    pokemon.name = pokeDetail.name
+    /*pokemon.number = pokeDetail.id
+    pokemon.name = pokeDetail.name*/
 
-    const eggGroups = pokeDetail.types.map((eggSlot) => eggSlot.egg_groups.name)
+    const eggGroups = pokeDetail.egg_groups.map((eggSlot) => eggSlot.egg_groups.name)
 
     pokemon.eggGroups = eggGroups
 

@@ -5,7 +5,7 @@ const eggGroups = document.getElementById('eggG')
 
 function convertPokemonToLi(pokemon) {
     return `
-        teste ${pokemon.eggGroups}
+        ${pokemon.eggGroups}
     `
 }
 
